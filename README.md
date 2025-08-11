@@ -1,15 +1,68 @@
-## 📌 Project Description
+# 📊 Netflix Data Analysis – Power BI Dashboard
 
-This project presents a comprehensive exploratory data analysis of Netflix’s content library using Power BI. The goal was to derive meaningful insights about the types, durations, ratings, and release patterns of the content available on Netflix. 
+![Sample Image](https://github.com/AKHILESHsingh1/Netflix-Data-analysis/blob/main/Snapshot%20of%20Netflix%20Dashboard.png)
 
-Over 7,600 records from the Netflix dataset were analyzed and visualized through an interactive Power BI dashboard. The analysis focused on the following areas:
+## 📌 Overview
+This project presents a **Power BI dashboard** analyzing Netflix's movies and TV shows dataset.  
+It provides insights into content distribution, ratings, release trends, durations, and top directors.  
 
-- **Content Type Analysis:** Compared the number of Movies vs. TV Shows available on the platform, revealing that Movies account for nearly 70% of the total titles.
-- **Content Rating Distribution:** Visualized the most common content ratings like TV-MA, TV-14, and TV-PG, offering insight into the platform’s target audiences.
-- **Release Year Trends:** Tracked the number of content releases by year, showing a peak in content additions between 2018 and 2020.
-- **Duration Breakdown:** Analyzed movie durations (e.g., 1.5–2 hours) and categorized TV shows into series length (short, medium, long).
-- **Top Directors:** Identified the most prolific directors for both Movies and TV Shows on Netflix.
-- **Country-Specific Insights:** Highlighted countries with the most content, including a notable presence of over 950 Indian movies.
+The analysis helps understand Netflix's content strategy, audience targeting, and release patterns.
 
-The visuals and summaries were compiled into a clean, presentation-ready PDF report, suitable for stakeholder communication or portfolio showcasing. All data transformations and visualizations were handled within Power BI using DAX and Power Query Editor.
+---
 
+## 📂 Dataset
+- **Source**: Netflix dataset containing details of movies and TV shows.
+- **Total Titles**: **7,689**
+  - **Movies**: 5,377 (**69.93%**)
+  - **TV Shows**: 2,312 (**30.07%**)
+
+---
+
+## 📈 Key Insights
+
+### 1️⃣ Content Type Distribution
+- Movies dominate the platform (**~70%**), with TV shows making up the rest.
+
+### 2️⃣ Ratings Breakdown (Top Categories)
+- **TV-MA** – 2,839 titles  
+- **TV-14** – 1,904 titles  
+- **R** – 665 titles  
+- **PG-13** – 386 titles  
+- Other ratings include TV-PG, TV-Y, PG, G, etc.
+
+### 3️⃣ Release Year Trends
+- Steady growth in releases from the 2000s onwards.
+- Peak production years: Post-2015 surge in both movies & TV shows.
+
+### 4️⃣ Duration Analysis (Movies & Shows)
+- Most movies are **1.5–2 hours** (2,577 titles).
+- Mini-series and medium-series dominate TV content.
+- Few short/long series compared to medium duration.
+
+### 5️⃣ Top Directors (Movies)
+- Marcus Raboy – 18 titles  
+- Jay Karas – 15 titles  
+- Cathy Garcia-Molina – 14 titles  
+- Martin Scorsese – 13 titles
+
+### 6️⃣ Top Directors (TV Shows)
+- Alastair Fothergill – 3 titles  
+- Others like Iginio Straffi, Ken Burns, Shin Won-ho – 2 titles each.
+
+### 7️⃣ Regional Highlight
+- **Indian Movies**: 955 titles.
+
+---
+
+## 📊 Dashboard Features
+- **Interactive Filters** – Filter by rating, release year, and duration.
+- **Dynamic Charts** – Visual representation of ratings, release trends, and directors.
+- **Regional Analysis** – Focus on specific countries.
+
+---
+
+## 🛠 Tools Used
+- **Power BI Desktop** – For dashboard creation & visualization.
+- **Dataset Cleaning** – Preprocessed using Excel/CSV before importing into Power BI.
+   ```bash
+   git clone https://github.com/yourusername/netflix-powerbi-dashboard.git
