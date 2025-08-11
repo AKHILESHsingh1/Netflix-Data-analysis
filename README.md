@@ -59,10 +59,3 @@ The analysis helps understand Netflix's content strategy, audience targeting, an
 - **Dynamic Charts** – Visual representation of ratings, release trends, and directors.
 - **Regional Analysis** – Focus on specific countries.
 
----
-
-## 🛠 Tools Used
-- **Power BI Desktop** – For dashboard creation & visualization.
-- **Dataset Cleaning** – Preprocessed using Excel/CSV before importing into Power BI.
-   ```bash
-   git clone https://github.com/yourusername/netflix-powerbi-dashboard.git
